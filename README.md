@@ -39,5 +39,6 @@
 
 ## Acknowledgements.
 
-- **GitHub Repos** • https://github.com/stars/42Willow/lists/ricing
-- **Dotfiles Tutorial** • https://www.jakewiesler.com/blog/managing-dotfiles
+- **GitHub Repos** • [My GitHub Star List](https://github.com/stars/42Willow/lists/ricing)
+- **Dotfiles Tutorial** • [Manage Your Dotfiles Like a Superhero](https://www.jakewiesler.com/blog/managing-dotfiles)
+- **Dotfiles Manager** • [Stow](https://www.gnu.org/software/stow/)
