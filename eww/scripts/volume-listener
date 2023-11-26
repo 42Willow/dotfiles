@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# A script to listen for volume changes and run a command when they occur.
+
+# Run pactl subscribe
+pactl subscribe | while read -r event; do
+    # If the event contains "sink" and "volume" then run the command
+    if [[ $event == *"change"* ]] && [[ $event == *"sink"* ]] then
+        # Run the command 
+        # (./scripts/player-control.sh up) &
+        notify-send "Volume changed"
+    fi
+done
