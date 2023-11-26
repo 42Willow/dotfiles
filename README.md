@@ -10,8 +10,9 @@
 ## Information.
 
 <p align="center">
-  <img width="50%" src="https://github.com/42Willow/dotfiles/blob/main/assets/screenshot.png?raw=true" />
+  <img src="https://github.com/42Willow/dotfiles/blob/main/assets/screenshot.png?raw=true" />
 </p>
+
 - 🪟 **Window Manager** • [Hyprland](https://github.com/hyprwm/Hyprland)
 - 🐚 **Shell** • [Zsh](https://www.zsh.org) with [Starship](https://github.com/starship/starship)
 - \>_ **Terminal** • [Kitty](https://github.com/kovidgoyal/kitty)
