@@ -1,3 +1,7 @@
+<!-- HEADERS -->
+<p align="center">
+  <img width="25%" src="https://github.com/42Willow/dotfiles/blob/main/assets/42willow.gif?raw=true" />
+</p>
 <p align="center">
   <b> ~ Willow's configuration files ~ </b>
 </p>
