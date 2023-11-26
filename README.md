@@ -30,7 +30,7 @@
 - **Icon Theme <kbd>Suggested</kbd>**
   > You can install [this](https://github.com/Frostbitten-jello/Skeuowaita) icon theme that suits the GTK theme.
 
--  **Font <kbd>Suggested</kbd>**
+- **Font <kbd>Suggested</kbd>**
   > Monaspace (specifically `MonaspiceNe NFM`) can be installed from [here](https://github.com/ryanoasis/nerd-fonts/releases/latest)
 
 ## Acknowledgements.
