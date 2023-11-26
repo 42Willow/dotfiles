@@ -1,0 +1,23 @@
+#!/usr/bin/bash
+
+# variables
+config=$HOME/.config/hypr
+scripts=$config/scripts
+
+# notification daemon
+dunst &
+
+# waybar
+#waybar &
+
+# eww
+eww daemon &
+eww open bar &
+
+
+# wallpaper
+hyprpaper &
+
+# other
+/usr/libexec/polkit-gnome-authentication-agent-1 &
+dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP &
