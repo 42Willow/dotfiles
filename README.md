@@ -18,16 +18,20 @@
 - 🗃️ **File Manager** • [Nautilus](https://gitlab.gnome.org/GNOME/nautilus)
 - 🎨 **Colour Palette** • [Catppuccin Macchiato Pink](https://github.com/catppuccin)
 
-<!-- Setup -->
-## Setup
-
-### Installation (Manual)
-
-#### Font
-Monaspace: `MonaspiceNe NFM` https://github.com/ryanoasis/nerd-fonts/releases/latest
-
 ## Miscellaneous.
 
+- **Elkowar's Wacky Widgets**
+  > 1. If you are **not** using a monitor, you may want to remove the monitor ddcutil slider from the bar.
+  > 2. If you are **not** using bluetooth, you may want to remove the bluetooth widget.
+
+- **Catppuccin Theme <kbd>Suggested</kbd>**
+  > Install the [Catppuccin](https://github.com/catppuccin/catppuccin) theme everywhere!
+
+- **Icon Theme <kbd>Suggested</kbd>**
+  > You can install [this](https://github.com/Frostbitten-jello/Skeuowaita) icon theme that suits the GTK theme.
+
+-  **Font <kbd>Suggested</kbd>**
+  > Monaspace (specifically `MonaspiceNe NFM`) can be installed from [here](https://github.com/ryanoasis/nerd-fonts/releases/latest)
 
 ## Acknowledgements.
 
