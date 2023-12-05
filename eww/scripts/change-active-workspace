@@ -10,16 +10,16 @@ direction=$1
 current=$2
 if test "$direction" = "down"
 then
-    notify-send "DOWN current: $current"
+    # notify-send "DOWN current: $current"
 	target=$(clamp 1 10 $(($current+1)))
 	echo "jumping to $target"
-    notify-send "jumping to $target"
+    # notify-send "jumping to $target"
 	hyprctl dispatch workspace $target
 elif test "$direction" = "up"
 then
-    notify-send "UP current: $current"
+    # notify-send "UP current: $current"
 	target=$(clamp 1 10 $(($current-1)))
 	echo "jumping to $target"
-    notify-send "jumping to $target"
+    # notify-send "jumping to $target"
 	hyprctl dispatch workspace $target
 fi

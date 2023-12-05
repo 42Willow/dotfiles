@@ -7,7 +7,7 @@
 </p>
 
 <!-- INFORMATION -->
-## Information.
+## Information
 
 <p align="center">
   <img src="https://github.com/42Willow/dotfiles/blob/main/assets/screenshot.png?raw=true" />
@@ -22,7 +22,7 @@
 - 🗃️ **File Manager** • [Nautilus](https://gitlab.gnome.org/GNOME/nautilus)
 - 🎨 **Colour Palette** • [Catppuccin Macchiato Pink](https://github.com/catppuccin)
 
-## Miscellaneous.
+## Miscellaneous
 
 - **Elkowar's Wacky Widgets**
   > 1. If you are **not** using a monitor, you may want to remove the monitor ddcutil slider from the bar.
@@ -37,7 +37,7 @@
 - **Font <kbd>Suggested</kbd>**
   > Monaspace (specifically `MonaspiceNe NFM`) can be installed from [here](https://github.com/ryanoasis/nerd-fonts/releases/latest)
 
-## Acknowledgements.
+## Acknowledgements
 
 - **GitHub Repos** • [My GitHub Star List](https://github.com/stars/42Willow/lists/ricing)
 - **Dotfiles Tutorial** • [Manage Your Dotfiles Like a Superhero](https://www.jakewiesler.com/blog/managing-dotfiles)

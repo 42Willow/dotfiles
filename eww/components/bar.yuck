@@ -1,0 +1,95 @@
+(defwidget bar []
+    (centerbox :orientation "h"
+        (workspaces)
+        (music)
+        (sidestuff)))
+    
+(defwidget sidestuff []
+    (box :class "sidestuff pill"
+        :orientation "h"
+        :space-evenly false
+        :halign "end"
+    (metric :label ""
+            :value {volume}
+            :onchange "pactl set-sink-volume @DEFAULT_SINK@ {}%")
+    (metric :label "󰁹"
+            :value {EWW_BATTERY["BAT0"].capacity}
+            :onchange "")
+    (metric :label ""
+            :value {EWW_CPU.avg}
+            :onchange "")
+    ; (metric :label "󰍛"
+    ;         :class "label-ram"
+    ;         :value {EWW_RAM.used_mem_perc}
+    ;         :onchange "")
+    (metric :label ""
+            :value {EWW_DISK["/home"].used_perc}
+            :onchange "")
+    time))
+
+(deflisten workspaces :initial "[]" "bash ~/.config/eww/scripts/get-workspaces")
+(deflisten current_workspace :initial "1" "bash ~/.config/eww/scripts/get-active-workspace")
+(defwidget workspaces []
+    (box :class "workspaces pill"
+        :orientation "h"
+        :halign "start"
+        :width "400"
+    (eventbox :onscroll "bash ~/.config/eww/scripts/change-active-workspace {} ${current_workspace}"
+                :class "workspace-scroll"
+        (box :space-evenly true
+        (label :text "${workspaces}${current_workspace}" :visible false)
+        (for workspace in workspaces
+            (eventbox :onclick "hyprctl dispatch workspace ${workspace.id}"
+                    :class "workspace"
+            (box :class "workspace-entry ${workspace.id == current_workspace ? "current" : ""} ${workspace.windows > 0 ? "occupied" : "empty"}"
+                (label :text "${workspace.id}")
+                )
+            )
+            )
+        )
+        )
+    )
+    )
+(defwidget music []
+    (box :class "music pill"
+        :orientation "h"
+        :space-evenly false
+        :halign "center"
+    (eventbox :onclick "playerctl play-pause"
+                :onscroll "bash ~/.config/eww/scripts/player-control {}"
+                :onrightclick "playerctl next"
+        {music != "" ? " ${music}" : ""}
+        )
+    )
+    )
+
+; (deflisten window :initial "..." "sh ~/.config/eww/scripts/get-window-title")
+; (defwidget window_w []
+;   (box
+;     (label :text "${window}"
+;     )
+;   )
+
+(defwidget metric [label value onchange ?class ?tooltip]
+    (box :orientation "h"
+        :class "metric ${class}"
+        :space-evenly false
+    (box :class "label" label)
+    (scale :min 0
+            :max 101
+            :active {onchange != ""}
+            :value value
+            :onchange onchange)))
+
+
+
+(deflisten music :initial "Play something!"
+    "playerctl --follow metadata --format '{{ artist }} - {{ title }}' || true")
+
+(defpoll volume :interval "1s"
+    "pactl get-sink-volume $(pactl info | awk '/Default Sink:/{print $3}') | awk '{print $5}' | sed 's/%//'")
+; (deflisten volume :initial "0"
+    ; "h"
+
+(defpoll time :interval "10s"
+    "date '+%H:%M %b %d, %Y'")
