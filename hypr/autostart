@@ -1,5 +1,8 @@
 #!/usr/bin/bash
 
+# cursor theme
+hyprctl setcursor Catppuccin-Macchiato-Dark-Cursors 24
+
 # variables
 config=$HOME/.config/hypr
 scripts=$config/scripts

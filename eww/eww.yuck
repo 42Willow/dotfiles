@@ -1,4 +1,6 @@
 (include "/home/willow/.dotfiles/eww/components/bar.yuck")
+(include "/home/willow/.dotfiles/eww/variables.yuck")
+
 
 (defwindow barMonitor
   :monitor 1

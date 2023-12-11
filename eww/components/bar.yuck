@@ -27,8 +27,6 @@
             :onchange "")
     time))
 
-(deflisten workspaces :initial "[]" "bash ~/.config/eww/scripts/get-workspaces")
-(deflisten current_workspace :initial "1" "bash ~/.config/eww/scripts/get-active-workspace")
 (defwidget workspaces []
     (box :class "workspaces pill"
         :orientation "h"
@@ -80,16 +78,3 @@
             :active {onchange != ""}
             :value value
             :onchange onchange)))
-
-
-
-(deflisten music :initial "Play something!"
-    "playerctl --follow metadata --format '{{ artist }} - {{ title }}' || true")
-
-(defpoll volume :interval "1s"
-    "pactl get-sink-volume $(pactl info | awk '/Default Sink:/{print $3}') | awk '{print $5}' | sed 's/%//'")
-; (deflisten volume :initial "0"
-    ; "h"
-
-(defpoll time :interval "10s"
-    "date '+%H:%M %b %d, %Y'")
