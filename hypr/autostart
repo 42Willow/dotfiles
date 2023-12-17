@@ -16,7 +16,7 @@ dunst &
 # eww
 eww daemon &
 eww open bar &
-
+eww open barMonitor &
 
 # wallpaper
 hyprpaper &
