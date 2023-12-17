@@ -8,6 +8,7 @@
 </p>
 
 All wallpapers here are suitable for a 4K monitor :)
+
 Inspired by [flick0](https://github.com/flick0/kabegami)
 
 -----------------
@@ -31,3 +32,11 @@ Inspired by [flick0](https://github.com/flick0/kabegami)
 <img src="./Pixel Art/3.gif" title="3"><br>
 <img src="./Pixel Art/4.png" title="4"><br>
 </details>
+
+-----------------
+
+## Sources
+
+- [Flick0](https://github.com/flick0/kabegami)
+- [Biohazardia](https://www.deviantart.com/biohazardia/gallery)
+- [Imgur Pixel Art Dump](https://imgur.com/gallery/SELjK)

@@ -24,13 +24,22 @@ pre = f"""
 </p>
 
 All wallpapers here are suitable for a 4K monitor :)
+
 Inspired by [flick0](https://github.com/flick0/kabegami)
 
 -----------------
 """
 
 # End README.md
-post = ""
+post = """
+-----------------
+
+## Sources
+
+- [Flick0](https://github.com/flick0/kabegami)
+- [Biohazardia](https://www.deviantart.com/biohazardia/gallery)
+- [Imgur Pixel Art Dump](https://imgur.com/gallery/SELjK)
+"""
 
 with open(readme, "w") as f:
     f.write(pre)
