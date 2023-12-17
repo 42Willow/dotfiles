@@ -22,7 +22,7 @@
 - 🗃️ **File Manager** • [Nautilus](https://gitlab.gnome.org/GNOME/nautilus)
 - 🎨 **Colour Palette** • [Catppuccin Macchiato Pink](https://github.com/catppuccin)
 
-## Setup
+## Setup (`stow`)
 
 [`stow`](https://www.gnu.org/software/stow/manual/stow.html) is used to manage dotfiles (by use of symlinks). To setup, I would recommend transferring all your dotfiles to your own personal Git repository using GNU Stow and copying my dotfiles manually as you wish.
 
@@ -35,7 +35,7 @@ An example:
 stow -d $HOME/.dotfiles/ -t $HOME/.config/dunst 
 ```
 
-#### Understanding `stow`
+### Understanding `stow`
 
 **Useful Tutorial** • [Manage Your Dotfiles Like a Superhero](https://www.jakewiesler.com/blog/managing-dotfiles)
 
