@@ -26,52 +26,9 @@
 
 Click [here](https://github.com/42Willow/dotfiles/tree/main/hypr/wallpapers) to view my wallpaper dump! (includes a README)
 
-## Setup (`stow`)
+## Setup
 
-[`stow`](https://www.gnu.org/software/stow/manual/stow.html) is used to manage dotfiles (by use of symlinks). To setup, I would recommend transferring all your dotfiles to your own personal Git repository using GNU Stow and copying my dotfiles manually as you wish.
-
-### How to use `stow`
-
-An example:
-
-```bash
-# To stow your Dunst configuration
-
-# First time config
-# cp /etc/dunst/dunstrc ~/.config/dunst/dunstrc
-
-mv $HOME/.config/dunst $HOME/.dotfiles
-
-mkdir $HOME/.config/dunst
-
-# Assuming ~/.dotfiles is your dotfiles directory
-stow dunst -d $HOME/.dotfiles/ -t $HOME/.config/dunst 
-
-# To check it was successful
-ls -l ~/.config/dunst
-```
-
-### Understanding `stow`
-
-**Useful Tutorial** • [Manage Your Dotfiles Like a Superhero](https://www.jakewiesler.com/blog/managing-dotfiles)
-
-> `stow` has a few key concepts that, when understood, should make this entire process a breeze. These concepts can be found in the Terminology documentation:
->  
-> - **A package** is a folder containing related dotfiles.
-> - **A stow directory** is a folder containing one or more packages.
-> - **A target directory** is the location in which a package's contents will be symlinked.
->  
-> What this will look like in practice is:
-
-```txt
-target-directory
-├── stow-directory
-│   ├── package-1
-│   │   └── .dotfile-1
-│   ├── package-2
-│   │   └── .dotfile-2
-│       └── .dotfile-3
-```
+View my "How to use `stow`" quickstart [here](https://github.com/42Willow/dotfiles/tree/main/assets/stow.md)
 
 ## Miscellaneous
 
