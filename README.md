@@ -32,9 +32,9 @@ View my "How to use `stow`" quickstart [here](https://github.com/42Willow/dotfil
 
 ## Miscellaneous
 
-- **Elkowar's Wacky Widgets**
+<!-- - **Elkowar's Wacky Widgets**
   > 1. If you are **not** using a monitor, you may want to remove the monitor ddcutil slider from the bar.
-  > 2. If you are **not** using bluetooth, you may want to remove the bluetooth widget.
+  > 2. If you are **not** using bluetooth, you may want to remove the bluetooth widget. -->
 
 - **Catppuccin Theme <kbd>Suggested</kbd>**
   > Install the [Catppuccin](https://github.com/catppuccin/catppuccin) theme everywhere!
