@@ -36,7 +36,19 @@ An example:
 
 ```bash
 # To stow your Dunst configuration
-stow -d $HOME/.dotfiles/ -t $HOME/.config/dunst 
+
+# First time config
+# cp /etc/dunst/dunstrc ~/.config/dunst/dunstrc
+
+mv $HOME/.config/dunst $HOME/.dotfiles
+
+mkdir $HOME/.config/dunst
+
+# Assuming ~/.dotfiles is your dotfiles directory
+stow dunst -d $HOME/.dotfiles/ -t $HOME/.config/dunst 
+
+# To check it was successful
+ls -l ~/.config/dunst
 ```
 
 ### Understanding `stow`
