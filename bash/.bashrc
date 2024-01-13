@@ -17,3 +17,5 @@ PF_INFO="ascii title os host kernel uptime de pallete" /usr/local/bin/pfetch
 . "$HOME/.cargo/env"
 
 eval "$(starship init bash)"
+
+alias macro="screen /dev/ttyACM0 115200"

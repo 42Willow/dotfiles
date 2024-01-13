@@ -22,6 +22,7 @@ hyprpaper &
 /usr/libexec/polkit-gnome-authentication-agent-1 &
 dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP &
 
-# Fix "authorization required, but no authorization protocol specified" error
-xhost +local: &
+# Fix "authorization required, but no authorization protocol specified" error (on Tumbleweed)
+# xhost +local: &
 # xhost +si:localuser:$USER &
+# xhost +SI:local:
