@@ -3,10 +3,6 @@
 # cursor theme
 hyprctl setcursor Catppuccin-Macchiato-Dark-Cursors 24
 
-# variables
-config=$HOME/.config/hypr
-scripts=$config/scripts
-
 # notification daemon
 dunst &
 
@@ -19,10 +15,6 @@ eww open barMonitor &
 hyprpaper &
 
 # other
-/usr/libexec/polkit-gnome-authentication-agent-1 &
+/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+xhost +SI:localuser:root &
 dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP &
-
-# Fix "authorization required, but no authorization protocol specified" error (on Tumbleweed)
-# xhost +local: &
-# xhost +si:localuser:$USER &
-# xhost +SI:local:
