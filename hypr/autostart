@@ -4,12 +4,12 @@
 hyprctl setcursor Catppuccin-Macchiato-Dark-Cursors 24
 
 # notification daemon
-dunst &
-
+# dunst &
 # # eww
 # eww daemon &
 # eww open bar &
 # eww open barMonitor &
+
 # ags
 ags &
 
