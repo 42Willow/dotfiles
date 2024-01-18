@@ -3,14 +3,7 @@
 # cursor theme
 hyprctl setcursor Catppuccin-Macchiato-Dark-Cursors 24
 
-# notification daemon
-# dunst &
-# # eww
-# eww daemon &
-# eww open bar &
-# eww open barMonitor &
-
-# ags
+# shell
 ags &
 
 # wallpaper

@@ -16,9 +16,9 @@
 - 🪟 **Window Manager** • [Hyprland](https://github.com/hyprwm/Hyprland)
 - 🐚 **Shell** • [Bash](https://www.gnu.org/software/bash/) with [Starship](https://github.com/starship/starship)
 - \>_ **Terminal** • [Kitty](https://github.com/kovidgoyal/kitty)
-- 🎉 **Bar & Widgets** • [Eww](https://github.com/elkowar/eww)
-- 🍃 **Notification Daemon** • [Dunst](https://github.com/dunst-project/dunst)
-- 🚀 **Launcher** • [Rofi](https://github.com/davatorium/rofi)
+- 🎉 **Bar & Widgets** • [AGS](https://github.com/Aylur/ags)
+- 🍃 **Notification Daemon** • [AGS](https://github.com/Aylur/ags)
+- 🚀 **Launcher** • [AGS](https://github.com/Aylur/ags)
 - 🗃️ **File Manager** • [Nautilus](https://gitlab.gnome.org/GNOME/nautilus)
 - 🎨 **Colour Palette** • [Catppuccin Macchiato Pink](https://github.com/catppuccin)
 
