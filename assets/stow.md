@@ -1,6 +1,6 @@
 # Stow Quickstart
 
-[`stow`](https://www.gnu.org/software/stow/manual/stow.html) is used to manage dotfiles (by use of symlinks). To setup, I would recommend transferring all your dotfiles to your own personal Git repository using GNU Stow and copying my dotfiles manually as you wish.
+[`stow`](https://www.gnu.org/software/stow/manual/stow.html) is used to manage dotfiles (by use of symlinks). To setup, I would recommend transferring all your dotfiles to your own personal Git repository using GNU Stow and copying my dotfiles manually as you wish. When creating a new file in your dotfiles repository, make sure to stow it to the relevant directory!
 
 ## Example
 
