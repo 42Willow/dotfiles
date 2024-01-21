@@ -20,6 +20,8 @@ stowd() {
     local packagename="$1"
     
     stow "$packagename" -d "$HOME/.dotfiles/" -t "$HOME/.config/$packagename"
+
+    ls -l ~/.config/$packagename
 }
 
 # Starship prompt
