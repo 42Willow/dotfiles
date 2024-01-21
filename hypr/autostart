@@ -3,8 +3,8 @@
 # cursor theme
 hyprctl setcursor Catppuccin-Macchiato-Dark-Cursors 24
 
-# shell
-ags &
+# bar
+waybar &
 
 # wallpaper
 hyprpaper &
