@@ -1,0 +1,16 @@
+# macchiato
+text-color = #cad3f5
+prompt-color = #ed8796
+selection-color = #eed49f
+background-color = #24273a
+
+width = 100%
+height = 100%
+border-width = 0
+outline-width = 0
+padding-left = 35%
+padding-top = 35%
+result-spacing = 25
+num-results = 5
+font = monospace
+
