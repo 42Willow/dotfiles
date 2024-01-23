@@ -56,7 +56,7 @@ for file in *; do
     
     echo "Processing file: $file"
 
-    base_filename=$(echo "$file" | sed -E 's/^(latte|macchiato|mocha|oled)-hald[0-9]+-//; s/\.png$//')
+    base_filename=$(echo "$file" | sed -E 's/^(latte|frappe|macchiato|mocha|oled)-hald[0-9]+-//; s/\.png$//')
 
     if [[ "$file" == *"latte"* ]]; then
         new_folder="Latte"
