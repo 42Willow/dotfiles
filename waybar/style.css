@@ -4,7 +4,7 @@
     border: none;
     border-radius: 0;
     min-height: 0;
-    font-family: Material Design Icons, JetBrainsMono Nerd Font;
+    font-family: Material Design Icons, MonaspiceNe Nerd Font;
     font-size: 13px;
 }
 
@@ -120,7 +120,7 @@ window#waybar.hidden {
 }
 
 #clock {
-    font-family: JetBrainsMono Nerd Font;
+    font-family: MonaspiceNe Nerd Font;
     background-color: @mauve;
 }
 
