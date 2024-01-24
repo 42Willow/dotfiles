@@ -33,7 +33,7 @@
     show_age_threshold = 60 
     markup = "full" 
     font = "monospace 10" 
-    format = "<b>%s</b>\n%b:"
+    format = "<b>%s</b>\n%b"
     word_wrap = "yes" 
     sort = "yes" 
     shrink = "no" 
