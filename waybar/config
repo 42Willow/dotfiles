@@ -76,7 +76,7 @@
 	"on-click": "~/.config/rofi/wifi/wifi.sh &",
         "on-click-right": "~/.config/rofi/wifi/wifinew.sh &",
 	"interval": 5,
-	"nospacing": 1,
+	"nospacing": 1
     },
     "pulseaudio": {
         "format": "{icon}",
