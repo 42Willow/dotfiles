@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="48"
+   height="48"
+   viewBox="0 0 24 24"
+   fill="none"
+   stroke="#cba6f7"
+   stroke-width="2"
+   stroke-linecap="round"
+   stroke-linejoin="round"
+   version="1.1"
+   id="svg8"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs8" />
+  <circle
+     cx="12"
+     cy="12"
+     r="4"
+     id="circle1"
+     style="stroke:#f5bde6;stroke-opacity:1" />
+  <path
+     d="M 12,2 V 4"
+     id="path1"
+     style="opacity:1;fill:#f5bde6;fill-opacity:1;stroke:#f5bde6;stroke-opacity:1" />
+  <path
+     d="m 12,20 v 2"
+     id="path2"
+     style="stroke:#f5bde6;stroke-opacity:1" />
+  <path
+     d="M 4.93,4.93 6.34,6.34"
+     id="path3"
+     style="stroke:#f5bde6;stroke-opacity:1" />
+  <path
+     d="m 17.66,17.66 1.41,1.41"
+     id="path4"
+     style="stroke:#f5bde6;stroke-opacity:1" />
+  <path
+     d="M 2,12 H 4"
+     id="path5"
+     style="stroke:#f5bde6;stroke-opacity:1" />
+  <path
+     d="m 20,12 h 2"
+     id="path6"
+     style="stroke:#f5bde6;stroke-opacity:1" />
+  <path
+     d="M 6.34,17.66 4.93,19.07"
+     id="path7"
+     style="stroke:#f5bde6;stroke-opacity:1" />
+  <path
+     d="M 19.07,4.93 17.66,6.34"
+     id="path8"
+     style="fill:#f5bde6;fill-opacity:1;stroke:#f5bde6;stroke-opacity:1" />
+</svg>
