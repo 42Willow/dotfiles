@@ -88,13 +88,13 @@
             "headphone": "",
             "default": ["󰖀","󰕾",""]
         },
-        "on-click": "pamixer -t",
+        "on-click": "pavucontrol",
         "scroll-step": 1
     },
     "custom/logo": {
         "format": "  ",
         "tooltip": false,
-        "on-click": "~/.config/rofi/launchers/misc/launcher.sh &"
+        // "on-click": "tofi-drun"
     },
     "battery": {
         "format": "{capacity}% {icon}",
@@ -135,6 +135,6 @@
     "custom/power": {
         "format": "󰤆",
         "tooltip": false,
-        "on-click": "~/.config/rofi/powermenu/type-2/powermenu.sh &"
+        // "on-click": "~/.config/hypr/scripts/power_menu.sh"
     }
 }
