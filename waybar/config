@@ -4,7 +4,8 @@
     "spacing": 0,
     "height": 41,
     "modules-left": [
-        "hyprland/workspaces"
+        "hyprland/workspaces",
+        "custom/logo"
     ],
     "modules-center": [
         "clock"
@@ -14,7 +15,8 @@
         "memory",
         "network",
         "pulseaudio",
-        "battery"
+        "battery",
+        "custom/power"
     ],
     "wlr/taskbar": {
         "format": "{icon}",
@@ -65,13 +67,11 @@
         "format-wifi" : "{icon}",
         "format-icons": ["󰤯","󰤟","󰤢","󰤥","󰤨"],
         "format-ethernet": "󰀂",
-	    "format-alt" : "󱛇",
         "format-disconnected" : "󰖪",
 	    "tooltip-format-wifi": "{icon} {essid}\n⇣{bandwidthDownBytes}  ⇡{bandwidthUpBytes}",
         "tooltip-format-ethernet": "󰀂  {ifname}\n⇣{bandwidthDownBytes}  ⇡{bandwidthUpBytes}",
 	    "tooltip-format-disconnected": "Disconnected",
 	    "on-click": "~/.config/tofi/wifi/wifi.sh &",
-        "on-click-right": "~/.config/tofi/wifi/wifinew.sh &",
 	"interval": 5,
 	"nospacing": 1
     },
@@ -123,5 +123,15 @@
             "critical": 10
         },
         "tooltip": false
+    },
+    "custom/power": {
+        "format": "󰤆",
+        "tooltip": false,
+        "on-click": "~/.config/hypr/scripts/power_menu.sh"
+    },
+    "custom/logo": {
+        "format": "  ",
+        "tooltip": false,
+        "on-click": "tofi-drun"
     }
 }
