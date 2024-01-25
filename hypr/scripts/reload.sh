@@ -14,6 +14,8 @@ for process in "${processes[@]}"; do
         hyprctl dispatch exec "$process"
         dunstify "reload.sh" "restarted <b>$process</b>"
     else
-        dunstify "reload.sh" "<b>$process</b> is not running"
+        dunstify "reload.sh" "<b>$process</b> is not running, starting it..."
+        hyprctl dispatch exec "$process"
+        dunstify "reload.sh" "started <b>$process</b>"
     fi
 done
