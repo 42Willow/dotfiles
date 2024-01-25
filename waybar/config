@@ -2,7 +2,7 @@
     "layer": "top",
     "position": "top",
     "spacing": 0,
-    "height": 41,
+    "height": 45,
     "modules-left": [
         "custom/logo",
         "hyprland/workspaces"
@@ -12,7 +12,7 @@
     ],
     "modules-right": [
         "tray",
-        "memory",
+        "cpu",
         "network",
         "pulseaudio",
         "battery",
@@ -54,6 +54,9 @@
         "interval": 5,
         "format": "󰍛 {}%",
         "max-length": 10
+    },
+    "cpu": {
+        "format": " {}%"
     },
     "tray": {
         "spacing": 10
@@ -127,7 +130,7 @@
     "custom/power": {
         "format": "󰤆",
         "tooltip": false,
-        "on-click": "~/.config/hypr/scripts/power_menu.sh"
+        "on-click": "~/.config/tofi/power_menu.sh"
     },
     "custom/logo": {
         "format": "  ",
