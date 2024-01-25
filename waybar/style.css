@@ -34,7 +34,7 @@ window#waybar.hidden {
 }
 
 #workspaces button.active {
-    color: #1e1e2e;
+    color: @base;
     background-color: @text;
 }
 
@@ -60,7 +60,7 @@ window#waybar.hidden {
     border-radius: 4px;
     margin: 6px 3px;
     padding: 6px 12px;
-    background-color: @base;
+    background-color: @surface0;
     color: @mantle;
 }
 
