@@ -2,9 +2,8 @@
     "layer": "top",
     "position": "top",
     "spacing": 0,
-    "height": 34,
+    "height": 41,
     "modules-left": [
-        "custom/logo",
         "hyprland/workspaces"
     ],
     "modules-center": [
@@ -15,14 +14,12 @@
         "memory",
         "network",
         "pulseaudio",
-        "battery",
-        "custom/power"
+        "battery"
     ],
     "wlr/taskbar": {
         "format": "{icon}",
         "on-click": "activate",
         "on-click-right": "fullscreen",
-        "icon-theme": "WhiteSur",
         "icon-size": 25,
         "tooltip-format": "{title}"
     },
@@ -91,11 +88,6 @@
         "on-click": "pavucontrol",
         "scroll-step": 1
     },
-    "custom/logo": {
-        "format": "  ",
-        "tooltip": false,
-        // "on-click": "tofi-drun"
-    },
     "battery": {
         "format": "{capacity}% {icon}",
         "format-icons": {
@@ -131,10 +123,5 @@
             "critical": 10
         },
         "tooltip": false
-    },
-    "custom/power": {
-        "format": "󰤆",
-        "tooltip": false,
-        // "on-click": "~/.config/hypr/scripts/power_menu.sh"
     }
 }
