@@ -24,7 +24,7 @@
 
 ## Wallpapers
 
-Click [here](https://github.com/42Willow/dotfiles/tree/main/hypr/wallpapers) to view my wallpaper dump! (includes a README)
+Click [here](https://github.com/42Willow/wallpapers) to view my wallpaper dump! (includes a README)
 
 ## Setup
 
