@@ -10,11 +10,11 @@ selected_option=$(echo -e "$options" | tofi --prompt-text "Power Menu: ")
 case "$selected_option" in
   "Shutdown")
     echo "Shutting down..."
-    sudo shutdown -h now
+    poweroff
     ;;
   "Reboot")
     echo "Rebooting..."
-    sudo reboot
+    reboot
     ;;
   "Suspend")
     echo "Suspending..."
