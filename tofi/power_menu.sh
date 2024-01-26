@@ -22,7 +22,7 @@ case "$selected_option" in
     ;;
   "Log Out")
     echo "Logging out..."
-    # Add your log out command here
+    hyprctl dispatch exit
     ;;
   "Displays Off")
     echo "Blanking screens..."
