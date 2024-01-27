@@ -6,6 +6,9 @@ hyprctl setcursor Catppuccin-Macchiato-Dark-Cursors 24
 # bar
 waybar &
 
+# update packages list
+pacman -Qe | awk '{print $1}' > $HOME/.dotfiles/assets/packages.txt
+
 # wallpaper
 hyprpaper &
 

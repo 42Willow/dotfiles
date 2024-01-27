@@ -1,11 +1,3 @@
-# Packages
-
-## Arch Linux
-
-`pacman -Qe | awk '{print $1}' | wl-copy`
-Copies all explicitly installed packages to clipboard without version numbers.
-
-```bash
 aseprite
 aylurs-gtk-shell
 base
@@ -104,4 +96,3 @@ wofi
 xdg-desktop-portal-hyprland
 xorg-xhost
 yay
-```

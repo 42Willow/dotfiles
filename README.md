@@ -33,11 +33,9 @@ Click [here](https://github.com/42Willow/wallpapers) to view my wallpaper dump! 
 git clone https://github.com/42Willow/dotfiles.git $HOME/.dotfiles
 # (Optional) Clone the wallpaper repository
 git clone https://github.com/42Willow/wallpapers.git $HOME/.wallpapers
+# (Optional) Install all the packages
+yay -S - < $HOME/.dotfiles/assets/packages.txt
 ```
-
-### Install the packages
-
-Go to the [packages](https://github.com/42Willow/dotfiles/blob/main/assets/packages.md) README and install the packages you need.
 
 Then you can use `stow` to symlink the dotfiles. View my "How to use `stow`" quickstart [here](https://github.com/42Willow/dotfiles/tree/main/assets/stow.md)
 
