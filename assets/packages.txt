@@ -12,6 +12,7 @@ catppuccin-cursors-macchiato
 catppuccin-gtk-theme-macchiato
 catppuccinifier-bin
 cava
+cliphist
 dunst
 efibootmgr
 eog
