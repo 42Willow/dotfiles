@@ -31,8 +31,10 @@ Click [here](https://github.com/42Willow/wallpapers) to view my wallpaper dump! 
 ```bash
 # Clone the repository
 git clone https://github.com/42Willow/dotfiles.git $HOME/.dotfiles
+
 # (Optional) Clone the wallpaper repository
 git clone https://github.com/42Willow/wallpapers.git $HOME/.wallpapers
+
 # (Optional) Install all the packages
 yay -S - < $HOME/.dotfiles/assets/packages.txt
 ```
@@ -41,18 +43,11 @@ Then you can use `stow` to symlink the dotfiles. View my "How to use `stow`" qui
 
 ## Miscellaneous
 
-<!-- - **Elkowar's Wacky Widgets**
-  > 1. If you are **not** using a monitor, you may want to remove the monitor ddcutil slider from the bar.
-  > 2. If you are **not** using bluetooth, you may want to remove the bluetooth widget. -->
-
 - **Catppuccin Theme <kbd>Suggested</kbd>**
   > Install the [Catppuccin](https://github.com/catppuccin/catppuccin) theme everywhere!
 
-- **Icon Theme <kbd>Suggested</kbd>**
-  > You can install [this](https://github.com/Frostbitten-jello/Skeuowaita) icon theme that suits the GTK theme.
-
 - **Font <kbd>Suggested</kbd>**
-  > Monaspace (specifically `MonaspiceNe NFM`) can be installed from [here](https://github.com/ryanoasis/nerd-fonts/releases/latest)
+  > Monaspace (specifically `MonaspiceNe Nerd Font Regular`) can be installed from [here](https://github.com/ryanoasis/nerd-fonts/releases/latest) or the [Arch Repository](https://archlinux.org/packages/extra/any/otf-monaspace-nerd/)
 
 ## Acknowledgements
 
