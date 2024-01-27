@@ -1,3 +1,6 @@
+# ⚠️ NOTE: This branch is unmaintained, and only used for archival purposes
+
+
 <!-- HEADERS -->
 <p align="center">
   <img width="25%" src="https://github.com/42Willow/dotfiles/blob/main/assets/42willow.gif?raw=true" />
