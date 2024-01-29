@@ -21,6 +21,11 @@ stow dunst -d $HOME/.dotfiles/ -t $HOME/.config/dunst
 
 # To check it was successful
 ls -l ~/.config/dunst
+
+# Another example for Firefox
+mv $HOME/.mozilla/firefox/ujr98y71.default-release/chrome $HOME/.dotfiles/firefox
+mkdir $HOME/.mozilla/firefox/ujr98y71.default-release/chrome
+stow firefox -d $HOME/.dotfiles -t $HOME/.mozilla/firefox/ujr98y71.default-release/chrome
 ```
 
 ## Understanding `stow`
