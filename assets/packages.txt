@@ -2,6 +2,7 @@ aseprite
 aylurs-gtk-shell
 base
 base-devel
+bat
 blueman
 bluez
 bluez-utils
@@ -13,6 +14,9 @@ catppuccin-gtk-theme-macchiato
 catppuccinifier-bin
 cava
 cliphist
+cups
+cups-pdf
+ddcutil
 dunst
 efibootmgr
 eog
@@ -46,11 +50,13 @@ nano
 nano-syntax-highlighting
 nautilus
 neofetch
+neovim
 networkmanager
 newsflash
 noto-fonts-cjk
 noto-fonts-emoji
 noto-fonts-extra
+nss-mdns
 nwg-look
 obsidian
 os-prober
@@ -87,6 +93,7 @@ tofi
 unzip
 upower
 vencord-desktop-git
+vim
 visual-studio-code-bin
 vlc
 waybar
