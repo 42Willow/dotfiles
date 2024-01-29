@@ -14,6 +14,7 @@ catppuccin-gtk-theme-macchiato
 catppuccinifier-bin
 cava
 cliphist
+cmatrix
 cups
 cups-pdf
 ddcutil
@@ -33,6 +34,7 @@ grub
 hyprkeys
 hyprland
 hyprpaper
+hyprpicker-git
 inkscape
 intel-gpu-tools
 intel-ucode
