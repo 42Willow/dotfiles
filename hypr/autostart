@@ -11,7 +11,6 @@ pacman -Qe | awk '{print $1}' > $HOME/.dotfiles/assets/packages.txt &
 
 # clipboard
 wl-paste --type text --watch cliphist store & #Stores only text data
-wl-paste --type image --watch cliphist store & #Stores only image data
 
 # wallpaper
 hyprpaper &
