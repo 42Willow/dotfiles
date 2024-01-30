@@ -74,7 +74,7 @@
 	    "tooltip-format-wifi": "{icon} {essid}\n⇣{bandwidthDownBytes}  ⇡{bandwidthUpBytes}",
         "tooltip-format-ethernet": "󰀂  {ifname}\n⇣{bandwidthDownBytes}  ⇡{bandwidthUpBytes}",
 	    "tooltip-format-disconnected": "Disconnected",
-	    "on-click": "~/.config/tofi/wifi/wifi.sh &",
+	    "on-click": "~/.config/tofi/scripts/wifi.sh &",
 	"interval": 5,
 	"nospacing": 1
     },
@@ -130,7 +130,7 @@
     "custom/power": {
         "format": "󰤆",
         "tooltip": false,
-        "on-click": "~/.config/tofi/power_menu.sh"
+        "on-click": "~/.config/tofi/scripts/power_menu.sh"
     },
     "custom/logo": {
         "format": "  ",
