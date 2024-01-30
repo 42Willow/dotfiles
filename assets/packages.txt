@@ -107,3 +107,5 @@ wofi
 xdg-desktop-portal-hyprland
 xorg-xhost
 yay
+zathura
+zathura-pdf-mupdf
