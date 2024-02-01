@@ -13,6 +13,7 @@ catppuccin-cursors-macchiato
 catppuccin-gtk-theme-macchiato
 catppuccinifier-bin
 cava
+cheese
 cliphist
 cmatrix
 cups
