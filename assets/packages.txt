@@ -1,5 +1,4 @@
 aseprite
-aylurs-gtk-shell
 base
 base-devel
 bat
@@ -38,11 +37,14 @@ hyprpaper
 hyprpicker-git
 inkscape
 intel-gpu-tools
+intel-media-driver
 intel-ucode
 ipscan
 keepassxc
 kitty
 kvantum
+libva-intel-driver
+libva-utils
 linux
 linux-firmware
 lutgen-bin
@@ -104,6 +106,7 @@ wev
 wget
 wireplumber
 wl-clipboard
+wl-screenrec
 wofi
 xdg-desktop-portal-hyprland
 xorg-xhost
