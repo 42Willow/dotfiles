@@ -1,7 +1,8 @@
 #!/usr/bin/bash
 
-# cursor theme
+# hyprctl
 hyprctl setcursor Catppuccin-Macchiato-Dark-Cursors 24 &
+hyprctl dispatch exec [workspace special] kitty
 
 # bar
 waybar &
@@ -17,5 +18,4 @@ hyprpaper &
 
 # other
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
-xhost +SI:localuser:root &
 dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP &
