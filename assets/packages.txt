@@ -84,6 +84,7 @@ rofi
 sddm
 seahorse
 slurp
+socat
 sof-firmware
 spicetify-cli
 spotify
