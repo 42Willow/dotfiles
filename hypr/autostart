@@ -2,7 +2,6 @@
 
 # hyprctl
 hyprctl setcursor Catppuccin-Macchiato-Dark-Cursors 24 &
-hyprctl dispatch exec [workspace special] kitty
 ~/.config/hypr/scripts/monitors.sh &
 
 # bar
