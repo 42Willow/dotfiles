@@ -23,6 +23,7 @@ efibootmgr
 eog
 firefox
 flatpak
+floorp-bin
 fragments
 git
 github-cli
