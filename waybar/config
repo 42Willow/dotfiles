@@ -8,7 +8,8 @@
         "hyprland/workspaces"
     ],
     "modules-center": [
-        "clock"
+        "clock",
+        "custom/recording"
     ],
     "modules-right": [
         "tray",
@@ -136,5 +137,10 @@
         "format": "  ",
         "tooltip": false,
         "on-click-release": "tofi-drun"
+    },
+    "custom/recording": {
+        "exec": "$HOME/.config/hypr/scripts/screend.sh",
+        "exec-on-event": false,
+        "on-click": "pkill -xo wl-screenrec"
     }
 }
