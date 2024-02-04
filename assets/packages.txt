@@ -13,6 +13,7 @@ catppuccin-gtk-theme-macchiato
 catppuccinifier-bin
 cava
 cheese
+chromium
 cliphist
 cmatrix
 cups
@@ -34,6 +35,7 @@ grim
 grub
 hyprkeys
 hyprland
+hyprland-autoname-workspaces-git
 hyprpaper
 hyprpicker-git
 inkscape
