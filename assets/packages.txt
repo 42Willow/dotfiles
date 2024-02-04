@@ -35,7 +35,6 @@ grim
 grub
 hyprkeys
 hyprland
-hyprland-autoname-workspaces-git
 hyprpaper
 hyprpicker-git
 inkscape
