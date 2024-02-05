@@ -57,12 +57,17 @@ window#waybar.hidden {
 #pulseaudio,
 #network,
 #clock,
-#tray {
+#tray,
+#custom-recording {
     border-radius: 4px;
     margin: 6px 3px;
     padding: 6px 12px;
     background-color: @surface0;
     color: @mantle;
+}
+
+#custom-recording {
+    background-color: @red;
 }
 
 #custom-power {

@@ -139,8 +139,8 @@
         "on-click-release": "tofi-drun"
     },
     "custom/recording": {
-        "exec": "$HOME/.config/hypr/scripts/screend.sh",
+        "exec": "exec $HOME/.config/hypr/scripts/screend.sh",
         "exec-on-event": false,
-        "on-click": "pkill -xo wl-screenrec"
+        "on-click": "killall wl-screenrec"
     }
 }
