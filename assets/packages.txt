@@ -19,10 +19,12 @@ cmatrix
 cups
 cups-pdf
 ddcutil
+dmenu
 dunst
 efibootmgr
 eog
 firefox
+firefox-developer-edition
 flatpak
 floorp-bin
 fragments
@@ -52,7 +54,6 @@ linux-firmware
 lutgen-bin
 man-db
 man-pages
-mpd
 nano
 nano-syntax-highlighting
 nautilus
@@ -93,11 +94,16 @@ spotify
 starship
 steam
 stow
+swaylock
 thunar
+thunderbird
 timeshift
 tlp
 tlpui
 tofi
+ttf-arphic-uming
+ttf-indic-otf
+ttf-twemoji
 unzip
 upower
 vencord-desktop-git
