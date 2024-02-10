@@ -58,7 +58,8 @@ window#waybar.hidden {
 #network,
 #clock,
 #tray,
-#custom-recording {
+#custom-recording,
+#mpris {
     border-radius: 4px;
     margin: 6px 3px;
     padding: 6px 12px;
@@ -68,6 +69,11 @@ window#waybar.hidden {
 
 #custom-recording {
     background-color: @red;
+}
+
+#mpris {
+    color: @text;
+    background-color: @surface0;
 }
 
 #custom-power {
@@ -88,6 +94,7 @@ window#waybar.hidden {
     background-color: @peach;
 }
 #cpu {
+    min-width: 20px;
     background-color: @peach;
 }
 #battery {

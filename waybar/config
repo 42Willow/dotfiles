@@ -9,6 +9,7 @@
     ],
     "modules-center": [
         "clock",
+        "mpris",
         "custom/recording"
     ],
     "modules-right": [
@@ -19,12 +20,16 @@
         "battery",
         "custom/power"
     ],
-    "wlr/taskbar": {
-        "format": "{icon}",
-        "on-click": "activate",
-        "on-click-right": "fullscreen",
-        "icon-size": 25,
-        "tooltip-format": "{title}"
+    "mpris": {
+        "interval": 1,
+        "format": "{status_icon} {title} - {artist}",
+        "tooltip-format": "Album: {album}\n\n{position} / {length}",
+        "status-icons": {
+            "playing": "",
+            "paused": "",
+            "stopped": "󱓻"
+        },
+        "ignored-players": ["firefox"]
     },
     "hyprland/workspaces": {
         "on-click": "activate",
@@ -57,7 +62,8 @@
         "max-length": 10
     },
     "cpu": {
-        "format": " {}%"
+        "interval": 5,
+        "format": " {usage}%"
     },
     "tray": {
         "spacing": 10
