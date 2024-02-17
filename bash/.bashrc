@@ -8,6 +8,8 @@
 
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
+alias chowna='sudo chown -R willow:willow *'
+
 PS1='[\u@\h \W]\$ '
 
 # Custom function to symlink dotfiles to the config directory
