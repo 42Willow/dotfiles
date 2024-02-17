@@ -9,9 +9,7 @@
 <!-- INFORMATION -->
 ## Information
 
-<p align="center">
-  <img src="https://github.com/42Willow/dotfiles/blob/main/assets/screenshot.png?raw=true" />
-</p>
+https://github.com/42Willow/dotfiles/assets/70784752/c05e9d59-6c2d-466e-ab67-82bc5a7e0394
 
 - 🪟 **Window Manager** • [Hyprland](https://github.com/hyprwm/Hyprland)
 - 🐚 **Shell** • [Bash](https://www.gnu.org/software/bash/) with [Starship](https://github.com/starship/starship)
