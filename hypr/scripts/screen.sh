@@ -14,7 +14,7 @@ if ! pgrep -x "wl-screenrec" > /dev/null; then # if wl-screenrec is running
         mkdir -p "$recordings_dir"
         if [ "$1" == "audio" ]; then
             dunstify "Screen recording" " Audio enabled"
-            wl-screenrec -g "$region" -f "$filename" --audio --audio-backend pactl info | awk '/Default Sink/ {print $3}' --low-power=off &
+            wl-screenrec -g "$region" -f "$filename" --audio --audio-device "$(pactl info | awk '/Default Sink/ {print $3}').monitor" --low-power=off &
         else
             dunstify "Screen recording" " Audio disabled"
             wl-screenrec -g "$region" -f "$filename" --low-power=off &
