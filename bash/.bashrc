@@ -29,6 +29,13 @@ stowd() {
 	ls -l ~/.config/$packagename
 }
 
+# To compile c++
+# Example input: hello
+# clang++ -o hello hello.cpp
+cppcompile() {
+	clang++ -o "$1" "${1}.cpp"
+}
+
 # Starship prompt
 eval "$(starship init bash)"
 
