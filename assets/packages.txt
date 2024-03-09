@@ -1,3 +1,4 @@
+activitywatch-bin
 aseprite
 base
 base-devel
@@ -18,15 +19,16 @@ cliphist
 cmatrix
 cups
 cups-pdf
+dart-sass
 ddcutil
 dmenu
+dmidecode
 dunst
 efibootmgr
 eog
 firefox
 firefox-developer-edition
 flatpak
-floorp-bin
 fragments
 git
 github-cli
@@ -36,6 +38,7 @@ gnome-keyring
 gparted
 grim
 grub
+gvfs-smb
 hyprkeys
 hyprland
 hyprpaper
@@ -48,6 +51,7 @@ ipscan
 keepassxc
 kitty
 kvantum
+libreoffice-fresh
 libva-intel-driver
 libva-utils
 linux
@@ -63,15 +67,14 @@ neovim
 networkmanager
 newsflash
 noto-fonts-cjk
-noto-fonts-emoji
 noto-fonts-extra
 nss-mdns
+ntfs-3g
 nwg-look
 obsidian
 os-prober
 otf-monaspace-nerd
 pavucontrol
-pika-backup
 pipes.sh
 pipewire
 pipewire-pulse
