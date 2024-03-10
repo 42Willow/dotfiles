@@ -39,8 +39,10 @@ gparted
 grim
 grub
 gvfs-smb
+hypridle-git
 hyprkeys
 hyprland
+hyprlock-git
 hyprpaper
 hyprpicker-git
 inkscape
@@ -51,6 +53,7 @@ ipscan
 keepassxc
 kitty
 kvantum
+kvantum-qt5
 libreoffice-fresh
 libva-intel-driver
 libva-utils
@@ -98,7 +101,6 @@ spotify
 starship
 steam
 stow
-swaylock
 thunar
 thunderbird
 timeshift
@@ -117,6 +119,7 @@ visual-studio-code-bin
 vivaldi
 vivaldi-ffmpeg-codecs
 vlc
+vorta
 waybar
 wev
 wget
