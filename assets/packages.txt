@@ -30,10 +30,12 @@ firefox
 firefox-developer-edition
 flatpak
 fragments
+fwupd
 git
 github-cli
 gnome-bluetooth-3.0
 gnome-calculator
+gnome-firmware
 gnome-keyring
 gparted
 grim
