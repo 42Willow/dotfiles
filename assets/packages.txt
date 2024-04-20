@@ -52,6 +52,7 @@ hyprland
 hyprlock
 hyprpaper
 hyprpicker-git
+hyprshot
 inkscape
 intel-gpu-tools
 intel-media-driver
@@ -88,6 +89,7 @@ osu-lazer-bin
 otf-monaspace-nerd
 pavucontrol
 peaclock
+perl-image-exiftool
 pipes.sh
 pipewire
 pipewire-pulse
