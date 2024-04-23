@@ -40,3 +40,7 @@ cppcompile() {
 eval "$(starship init bash)"
 
 PF_INFO="ascii title os host kernel pkgs" PF_SEP=":" PF_COL1=4 PF_COL3=5 PF_ASCII="Catppuccin" /usr/local/bin/pfetch
+. "$HOME/.cargo/env"
+
+# Created by `pipx` on 2024-04-23 10:16:53
+export PATH="$PATH:/home/willow/.local/bin"

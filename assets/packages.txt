@@ -1,8 +1,11 @@
 activitywatch-bin
+arm-none-eabi-gcc
+arm-none-eabi-newlib
 aseprite
 base
 base-devel
 bat
+binder_linux-dkms
 binwalk
 blueman
 bluez
@@ -38,6 +41,7 @@ git
 github-cli
 gnome-bluetooth-3.0
 gnome-calculator
+gnome-clocks
 gnome-firmware
 gnome-keyring
 godot
@@ -69,6 +73,7 @@ libva-intel-driver
 libva-utils
 linux
 linux-firmware
+linux-lts
 man-db
 man-pages
 nano
@@ -82,6 +87,7 @@ noto-fonts-cjk
 noto-fonts-extra
 nss-mdns
 ntfs-3g
+nushell
 nwg-look
 obsidian
 os-prober
@@ -97,6 +103,7 @@ plymouth
 polkit-gnome
 polkit-kde-agent
 prismlauncher
+python-pipx
 qt5-graphicaleffects
 qt5-quickcontrols2
 qt5-wayland
@@ -136,6 +143,7 @@ vivaldi-ffmpeg-codecs
 vlc
 vorta
 waybar
+waydroid
 wev
 wget
 wireplumber

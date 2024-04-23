@@ -96,5 +96,8 @@ $env.NU_PLUGIN_DIRS = [
 # path add ($env.HOME | path join ".local" "bin")
 # $env.PATH = ($env.PATH | uniq)
 
+$env.PATH = ($env.PATH | append '/home/willow/.cargo/bin')
+$env.PATH = ($env.PATH | append '/home/willow/.local/bin')
+
 # To load from a custom file you can use:
 # source ($nu.default-config-dir | path join 'custom.nu')
