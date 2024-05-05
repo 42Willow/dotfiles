@@ -7,6 +7,7 @@ base-devel
 bat
 binder_linux-dkms
 binwalk
+blender
 blueman
 bluez
 bluez-utils
@@ -27,6 +28,7 @@ cups
 cups-pdf
 dart-sass
 ddcutil
+discord-chat-exporter-cli
 dmidecode
 dunst
 efibootmgr
@@ -36,6 +38,7 @@ firefox
 firefox-developer-edition
 flatpak
 fragments
+freecad
 fwupd
 git
 github-cli
@@ -50,6 +53,7 @@ grim
 grub
 gvfs-smb
 hexchat
+hyfetch
 hypridle-git
 hyprkeys
 hyprland
@@ -76,6 +80,7 @@ linux-firmware
 linux-lts
 man-db
 man-pages
+mesa-utils
 nano
 nano-syntax-highlighting
 nautilus
@@ -89,6 +94,7 @@ nss-mdns
 ntfs-3g
 nushell
 nwg-look
+nyx
 obsidian
 os-prober
 osu-lazer-bin
@@ -129,6 +135,8 @@ tldr
 tlp
 tlpui
 tofi
+tokei
+torbrowser-launcher
 tree
 ttf-arphic-uming
 ttf-indic-otf
@@ -136,6 +144,7 @@ ttf-twemoji
 unzip
 upower
 vencord-desktop-git
+veracrypt
 vim
 visual-studio-code-bin
 vivaldi
