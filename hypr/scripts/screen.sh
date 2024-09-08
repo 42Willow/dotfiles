@@ -5,7 +5,7 @@
 if ! pgrep -x "wl-screenrec" > /dev/null; then # if wl-screenrec is running
     status_file="/tmp/screen_recording_status"
     region="$(slurp -d -c f5bde6)"
-    recordings_dir="$HOME/Videos/Recordings"  # Set the desired directory
+    recordings_dir="$HOME/videos/recordings"  # Set the desired directory
     filename="$recordings_dir/screen_recording_$(date +"%d-%m-%Y_%H-%M-%S").mp4"
     start_time=$(date +"%s")
 

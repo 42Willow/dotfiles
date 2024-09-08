@@ -1,3 +1,9 @@
+# ⚠️ Maintenance Mode ⚠️
+
+This repository is currently in low-maintenance mode, as I have moved to NixOS and am no longer using Arch for 99% of the time. However, this repository will still be updated as breaking changes to package configurations are made. You can find my NixOS configuration [here](https://github.com/42willow/flake).
+
+----
+
 <!-- HEADERS -->
 <p align="center">
   <img width="25%" src="https://github.com/42Willow/dotfiles/blob/main/assets/42willow.gif?raw=true" />
